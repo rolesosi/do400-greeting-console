@@ -25,7 +25,7 @@ pipeline{
             steps{
                 sh '''
                     oc project ctmhlo-greetings
-                    oc start-build greetings-console --follow --wait
+                    oc start-build greeting-console --follow --wait
                 '''
             }
         }
